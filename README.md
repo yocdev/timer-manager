@@ -1,6 +1,8 @@
 # timer-manager
 Timer manager providing clean up facility. Use it in App termination to avoid keeping event loop running.
 
+![Node.js Package](https://github.com/yocdev/timer-manager/workflows/Node.js%20Package/badge.svg)
+
 ## Installation
 
 ```

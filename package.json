@@ -1,0 +1,19 @@
+{
+  "name": "@yocdev/timer-manager",
+  "version": "1.0.0",
+  "description": "Timer manager providing clean up facility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yocdev/timer-manager.git"
+  },
+  "author": "dev@youchai.me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yocdev/timer-manager/issues"
+  },
+  "homepage": "https://github.com/yocdev/timer-manager#readme"
+}

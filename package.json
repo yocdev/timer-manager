@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/yocdev/timer-manager.git"
   },
-  "author": "dev@youchai.me",
+  "author": "npm@youchai.me",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yocdev/timer-manager/issues"

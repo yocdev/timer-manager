@@ -47,7 +47,14 @@ const TimerManager = {
         originalClearInterval(timer)
       }
     }
-  }
+  },
+
+  original: {
+    setTimeout: originalSetTimeout,
+    clearTimeout: originalClearTimeout,
+    setInterval: originalSetInterval,
+    clearInterval: originalClearInterval,
+  },
 }
 
 

@@ -11,12 +11,13 @@ $ npm install @yocdev/timer-manager
 
 ## Usage
 
-```
-// Since we'll replace the global timer functions (e.g. setTimeout, setInterval ...) in order to trace them, require the package as early as possible.
+```javascript
+// Since we'll replace the global timer functions (e.g. setTimeout, setInterval ...) 
+// in order to trace them, require the package as early as possible.
 require('@yocdev/timer-manager')
 ```
 
-```
+```javascript
 // In your codes, just use the timer functions as before.
 setTimeout(...)
 setInterval(...)
@@ -24,14 +25,14 @@ clearTimeout(...)
 clearInterval(...)
 ```
 
-```
+```javascript
 // In your App termination process, clear all still active timers
 // to avoid keeping event loop active.
 const TimerManager = require('@yocdev/timer-manager')
 TimerManager.clearAll()
 ```
 
-```
+```javascript
 // If you wanna access the original timer functions, use TimerManager.original.
 // Note: These timer functions are not managed by TimerManager,
 // `TimerManager.clearAll()` can't clear them.

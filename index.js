@@ -55,6 +55,14 @@ const TimerManager = {
     setInterval: originalSetInterval,
     clearInterval: originalClearInterval,
   },
+
+  getTimeoutTimerSet() {
+    return timeoutTimerSet
+  },
+
+  getIntervalTimerSet() {
+    return intervalTimerSet
+  },
 }
 
 
